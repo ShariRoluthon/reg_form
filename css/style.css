@@ -1,0 +1,18 @@
+/* Author - Shari Roluthon
+Date - 29th June 2022 */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: #566573;
+}
+
+/* submit button style */
+.btnstyle{
+    background-color: #28B463  ;
+}
+
+/* media queries */
+/* @media screen and (max-width:578px) {
+
+    
+} */

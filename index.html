@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RegForm</title>
+	<!-- bootstrap css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- custom css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-primary">
+	<section>
+		<div class="container w-100 w-sm-75">
+			<div class="row m-3 m-sm-5">
+				<div class="col-12 p-0">
+					<img src="images/Reg_Pic.jpg" class="img-fluid">
+				</div>
+				<div class="col-12 p-5 bg-white">
+					<h3 class="mb-4 text-dark">Registration Info</h3>
+					<form>	
+						<div class="form-outline">
+							<input type="email" placeholder="NAME" class="ps-0 form-control border-0 border-bottom border-2" />
+							<label class="form-label" for="Name"></label>
+						</div>
+						<div class="row">
+							<div class="col-12 col-sm-6">
+								<div class="form-outline">
+									<input type="text" placeholder="BIRTHDATE" onfocus="(this.type='date')" class="ps-0 form-control border-0 border-bottom border-2 text-secondary" />
+									<label class="form-label" for="Birthdate"></label>
+								</div>
+							</div>
+							<div class="col-12 col-sm-6">
+								<div class="form-outline">
+									<select class="ps-0 form-select border-0 border-bottom border-2 text-secondary" aria-label="Default select example">
+										<option selected>GENDER</option>
+										<option>Male</option>
+										<option>Female</option>
+										<option>Others</option>
+									</select>
+									<label class="form-label" for="Gender"></label>
+								</div>
+							</div>
+						</div>
+						<div class="form-outline">
+							<select class="ps-0 form-select border-0 border-bottom border-2 text-secondary" aria-label="Default select example">
+								<option selected>CLASS</option>
+								<option>Distinction</option>
+								<option>First Class</option>
+								<option>Second Class</option>
+								<option>Third Class</option>
+							</select>
+							<label class="form-label" for="Class"></label>
+					  </div>
+					  <div class="row">
+						<div class="col-12 col-sm-6">
+							<div class="form-outline">
+								<input type="text" placeholder="REGISTRATION CODE" class="ps-0 form-control border-0 border-bottom border-2" />
+								<label class="form-label" for="Reg Code"></label>
+							</div>
+						</div>
+					  </div>
+					  <a href="#" class="btn btnstyle"><small class="text-white">Submit</small></a>
+					</form>
+				</div>
+			</div>			
+		</div>
+	</section>
+
+	<!-- bootstrap script -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
